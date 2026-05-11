@@ -1,0 +1,157 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavadoras y Secadoras ⚙️ Habana | Ingeniería</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --negro-pro: #000000;
+            --azul-habana: #00CCFF;
+            --blanco: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+        body { background-color: var(--blanco); color: var(--negro-pro); }
+
+        /* Logo con el icono integrado en el nombre como pediste */
+        nav {
+            background: var(--negro-pro);
+            color: var(--blanco);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--azul-habana);
+        }
+
+        .logo-branding {
+            font-weight: 900;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-branding span { color: var(--azul-habana); font-size: 1.5rem; }
+
+        /* Seccion Principal con tu imagen */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 80vh;
+            align-items: center;
+            padding: 40px 5%;
+            background: #f4f4f4;
+        }
+
+        .hero-text h1 { font-size: 3.5rem; font-weight: 900; line-height: 1.1; margin-bottom: 20px; color: var(--negro-pro); }
+        .hero-text p { font-size: 1.4rem; margin-bottom: 30px; color: #444; }
+
+        .hero-image { position: relative; text-align: center; }
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            border: 5px solid var(--negro-pro);
+        }
+
+        /* Servicios basados en tu volante */
+        .volante-info { padding: 80px 5%; text-align: center; background: var(--negro-pro); color: white; }
+        .volante-info h2 { font-size: 2.5rem; margin-bottom: 50px; color: var(--azul-habana); }
+
+        .grid-servicios { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .item-servicio { background: #111; padding: 30px; border-radius: 15px; border-left: 5px solid var(--azul-habana); text-align: left; }
+        .item-servicio i { font-size: 2rem; color: var(--azul-habana); margin-bottom: 15px; }
+        .item-servicio h3 { margin-bottom: 10px; font-size: 1.5rem; }
+
+        /* Boton WhatsApp */
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.5rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 40px;
+            transition: 0.3s;
+        }
+        .btn-whatsapp:hover { transform: scale(1.05); }
+
+        footer { padding: 40px; text-align: center; background: #000; color: white; border-top: 1px solid #333; }
+
+        @media (max-width: 768px) {
+            .hero { grid-template-columns: 1fr; text-align: center; }
+            .hero-text h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo-branding">
+        Lavadoras y Secadoras <span>⚙️</span> Habana
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>SERVICIO TÉCNICO <br><span style="color: var(--azul-habana)">ESPECIALIZADO</span></h1>
+        <p>Garantía de operatividad y respaldo de ingeniería para su hogar y empresa.</p>
+        <a href="https://wa.me/5352613105" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> +53 52613105
+        </a>
+    </div>
+    <div class="hero-image">
+        <!-- He puesto una referencia a una imagen similar a la tuya para el diseño -->
+        [Imagen de Técnico Especialista en Lavadoras Habana]
+        <p style="margin-top:10px; font-weight:bold;">INGENIERÍA Y CONFIANZA</p>
+    </div>
+</section>
+
+<section class="volante-info">
+    <h2>SOLUCIONES INTEGRALES</h2>
+    <div class="grid-servicios">
+        <div class="item-servicio">
+            <i class="fas fa-microchip"></i>
+            <h3>Reparación Avanzada</h3>
+            <p>Especialistas en Digital, Inverter y Gas (LG, Samsung, Hisense, Frigidaire).</p>
+        </div>
+        <div class="item-servicio">
+            <i class="fas fa-building"></i>
+            <h3>Nivel Corporativo</h3>
+            <p>Mantenimiento preventivo y correctivo para Hoteles y Empresas.</p>
+        </div>
+        <div class="item-servicio">
+            <i class="fas fa-tools"></i>
+            <h3>Diagnóstico Preciso</h3>
+            <p>Análisis electrónico y mecánico con instrumentos de alta gama.</p>
+        </div>
+        <div class="item-servicio">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Garantía Técnica</h3>
+            <p>Respaldo total en cada componente instalado.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>LAVADORAS Y SECADORAS ⚙️ HABANA</p>
+    <p style="opacity: 0.6; margin-top: 10px;">La Habana, Cuba | +53 52613105</p>
+</footer>
+
+</body>
+</html>
+
+```

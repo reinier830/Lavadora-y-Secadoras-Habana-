@@ -1,0 +1,158 @@
+Index.html```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavadoras y Secadoras ⚙️ Habana | Servicio Técnico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --azul-oscuro: #1a2a40;
+            --azul-claro: #00CCFF;
+            --rojo: #b22222;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; background-color: #ffffff; color: #333; line-height: 1.6; }
+
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--azul-claro);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: #fff;
+        }
+        .logo span { color: var(--azul-claro); font-size: 1.4rem; }
+
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color: var(--rojo);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 5px solid var(--azul-oscuro);
+            border-radius: 0 8px 8px 0;
+        }
+        .item i { color: var(--rojo); font-size: 1.3rem; margin-top: 3px; }
+        .item p { font-weight: 700; font-size: 0.95rem; }
+
+        .banner {
+            background: var(--azul-oscuro);
+            color: white;
+            padding: 30px 20px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .wa-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            padding: 18px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 1.4rem;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Lavadoras y Secadoras <span>⚙️</span> Habana</div>
+</header>
+
+<div class="hero">
+    <h1>SERVICIO TÉCNICO ESPECIALIZADO</h1>
+    
+    
+
+    <div class="services">
+        <div class="item">
+            <i class="fas fa-check-circle"></i>
+            <p>REPARACIÓN AVANZADA DIGITAL, INVERTER Y GAS.</p>
+        </div>
+        <div class="item">
+            <i class="fas fa-check-circle"></i>
+            <p>MANTENIMIENTO CORPORATIVO (HOTELES Y EMPRESAS).</p>
+        </div>
+        <div class="item">
+            <i class="fas fa-check-circle"></i>
+            <p>DIAGNÓSTICO DE PRECISIÓN EN ELECTRÓNICA.</p>
+        </div>
+        <div class="item">
+            <i class="fas fa-check-circle"></i>
+            <p>GARANTÍA TÉCNICA REAL EN COMPONENTES.</p>
+        </div>
+    </div>
+</div>
+
+<div class="banner">
+    <h3>Garantía de Operatividad</h3>
+    <p>Ingeniería de Servicio para su Equipo</p>
+</div>
+
+<div class="contact">
+    <a href="https://wa.me/5352613105" class="wa-btn">
+        <i class="fab fa-whatsapp"></i> +53 52613105
+    </a>
+</div>
+
+<footer>
+    <p>© 2024 Lavadoras y Secadoras ⚙️ Habana | La Habana, Cuba</p>
+</footer>
+
+</body>
+</html>
+
+```
